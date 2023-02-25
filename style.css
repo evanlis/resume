@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+body {
+
+    font-size: 16px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    background-color: #f1f1f1;
+    color: #0f141e;
+}
+img {
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    font-weight: bold;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.info-text p {
+    color: #54565a;
+}
+
+.card {
+    border: 1px solid #54565a;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+}
+
+.card1 {
+    background-color: rgb(235, 253, 233);
+}
+
+.card2 {
+    background-color: rgb(252, 231, 228);
+}
+
+.card3 {
+    background-color: rgb(253, 248, 224);
+}
+
+a:visited {
+    color: rgb(99, 68, 68);
+}
+
+a {
+    color: #54565a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #375797;
+    text-decoration: underline;
+}
+
+a:active {
+    color:rgb(0, 35, 208)
+}
+
+.btn {
+    border: none;
+    color: aliceblue;
+    background: #0f141e;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: 'Lora';
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .85;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    margin: 10px 20px;
+}
+
+.table {
+    padding: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.table td {
+    text-align: center;
+    padding: 5px;
+}
+
+.form h2{
+text-align:  center;
+}
+
+.form-group label{
+    display: block;
+    font-style: 17px;
+    color: #86898f;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: 'Bellota';
+    font-weight: 900px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    display: inline-block;
+    margin-right: 20px;
+    width: 50%;
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+    
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+

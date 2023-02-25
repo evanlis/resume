@@ -6,61 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="frontend разработчик Аверкин Илья Дмитриевич">
     <meta name="description" content="Резюме frontend программиста">
+    <link rel="stylesheet" href="style.css">
     <title>Илья на frontend-е</title>
 </head>
 <body>
-    <img src="https://sun9-21.userapi.com/impg/Ioy7XQkpVEtZ67s6_i1B4O2LZLdOCbESwSiRUw/oHhccC7YmgY.jpg?size=1126x1500&quality=95&sign=054ffba4ac17b64bd245fca85cc41335&type=album" alt="Тут должна быть моя аватарка :)">
-    <h1>Илья Аверкин</h1>
-    <p>Я <strong>frontend</strong> разработчик. Знаком с технологиями: <strong><em>HTML, CSS, JavaScript, React, GIT. </em></strong></p>
-    <a href="https://vk.com/illiaman" target="_blank">VK</a>
-    |
-    <a href="https://www.instagram.com/ilyaa2400/" target="_blank">Instagram</a>
-    |
-    <a href="https://t.me/evanlis" target="_blank">Telegram</a>
-    <h2>Мои хобби:</h2>
-    <ol>
-        <li>Фитнес</li>
-        <li>Настольный теннис</li>
-        <li>Музыка</li>
-    </ol>
+    <div class="container">
+        <div class="info">
+            <img src="https://sun9-21.userapi.com/impg/Ioy7XQkpVEtZ67s6_i1B4O2LZLdOCbESwSiRUw/oHhccC7YmgY.jpg?size=1126x1500&quality=95&sign=054ffba4ac17b64bd245fca85cc41335&type=album" alt="Тут должна быть моя аватарка :)">
+            <div class="info-text">
+                <h1>Илья Аверкин</h1>
+                <p>Я <strong>frontend</strong> разработчик. Знаком с технологиями: <strong><em>HTML, CSS, JavaScript, React, GIT. </em></strong></p>
+                <a href="https://vk.com/illiaman" target="_blank">VK</a>
+                |
+                <a href="https://www.instagram.com/ilyaa2400/" target="_blank">Instagram</a>
+                |
+                <a href="https://t.me/evanlis" target="_blank">Telegram</a>
+            </div>
+        </div>
 
-    <h2>Опыт работы</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Название</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Rockets</td>
-                <td>Бариста</td>
-                <td>2021 - 2022</td>
-            </tr>
-            <tr>
-                <td>Фриланс</td>
-                <td>frontend</td>
-                <td>2023 - сейчас</td>
-            </tr>
-        </tbody>
-    </table>
+    
+        <div class="card1 card">
+                <h2>Мои хобби:</h2>
+            <ol class="list">
+                <li>Фитнес</li>
+                <li>Настольный теннис</li>
+                <li>Музыка</li>
+            </ol>
+    
+        </div>
+    
+        <div class="card2 card">
+            <h2>Опыт работы</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rockets</td>
+                    <td>Бариста</td>
+                    <td>2021 - 2022</td>
+                </tr>
+                <tr>
+                    <td>Фриланс</td>
+                    <td>frontend</td>
+                    <td>2023 - сейчас</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    
+        <div class="card3 card form">
+            <h2>Связаться со мной</h2>
+            <form action="">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fio">Введите ваше имя:</label>
+                        <input type="text" placeholder="Введите ваше имя" id="fio">
+                    </div>
+                    <div class="form-group">
+                        <label for="mail">Введите вашу почту:</label>
+                        <input type="email" placeholder="Введите вашу почту" id="mail">
+                    </div>
+                </div>
 
-    <h2>Связаться со мной</h2>
-    <form action="">
-        <label for="fio">Введите ваше имя:</label>
-        <input type="text" placeholder="Введите ваше имя" id="fio">
-        <br>
-        <label for="mail">Введите вашу почту:</label>
-        <input type="email" placeholder="Введите вашу почту" id="mail">
-        <br>
-        <label for="message">Ваше сообщение:</label>
-        <br>
-        <textarea name="message" id="" cols="30" rows="10" placeholder="Введите ваш текст..."></textarea>
-        <br>
-        <button type="submit">Отправить!</button>
-    </form>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Введите ваш текст..."></textarea>
+                </div>
+
+                <button type="submit" class="btn">Отправить!</button>
+            </form>
+        </div>  
+    </div>
 </body>
 </html>
 
